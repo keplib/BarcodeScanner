@@ -14,6 +14,7 @@
 		74BB87632C8F64B7006310F5 /* BarcodeScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB87622C8F64B7006310F5 /* BarcodeScannerTests.swift */; };
 		74BB876D2C8F64B7006310F5 /* BarcodeScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB876C2C8F64B7006310F5 /* BarcodeScannerUITests.swift */; };
 		74BB876F2C8F64B7006310F5 /* BarcodeScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB876E2C8F64B7006310F5 /* BarcodeScannerUITestsLaunchTests.swift */; };
+		74BB877C2C9078A5006310F5 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB877B2C9078A5006310F5 /* ScannerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		74BB87682C8F64B7006310F5 /* BarcodeScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarcodeScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BB876C2C8F64B7006310F5 /* BarcodeScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerUITests.swift; sourceTree = "<group>"; };
 		74BB876E2C8F64B7006310F5 /* BarcodeScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		74BB877B2C9078A5006310F5 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				74BB87532C8F64B5006310F5 /* BarcodeScanner.swift */,
 				74BB87552C8F64B7006310F5 /* Assets.xcassets */,
 				74BB87572C8F64B7006310F5 /* Preview Content */,
+				74BB877B2C9078A5006310F5 /* ScannerVC.swift */,
 			);
 			path = BarcodeScanner;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BB877C2C9078A5006310F5 /* ScannerVC.swift in Sources */,
 				74BB87542C8F64B5006310F5 /* BarcodeScanner.swift in Sources */,
 				74BB87522C8F64B5006310F5 /* BarcodeScannerApp.swift in Sources */,
 			);
